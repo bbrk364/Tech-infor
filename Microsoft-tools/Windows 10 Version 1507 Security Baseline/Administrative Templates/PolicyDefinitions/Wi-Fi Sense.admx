@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<policyDefinitions xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   revision="1.0"
+                   schemaVersion="1.0"
+                   xmlns="http://schemas.microsoft.com/GroupPolicy/2006/07/PolicyDefinitions">
+  <policyNamespaces>
+    <target prefix="WiFiSense" namespace="Microsoft.Policies.WiFiSense" />
+    <using prefix="windows" namespace="Microsoft.Policies.Windows" />
+  </policyNamespaces>
+  <supersededAdm fileName="" />
+  <resources minRequiredRevision="1.0" />
+  <supportedOn>
+    <definitions>
+      <definition name="SUPPORTED_Windows_10_0_NOSERVER" displayName="$(string.SUPPORTED_Windows_10_0_NOSERVER)" />
+    </definitions>
+  </supportedOn>
+  <categories>
+    <category name="CAT_WIFISENSE" displayName="$(string.CAT_WIFISENSE)" />
+  </categories>
+  <policies>
+    <policy name="POL_WIFISENSE_DISABLE" class="Machine" displayName="$(string.POL_WIFISENSE_DISABLE)" explainText="$(string.POL_WIFISENSE_DISABLE_Help)" presentation="$(presentation.POL_0F9924D0_F01D_49AE_9FDE_ABF4C4A6CFDF)" key="Software\Microsoft\WcmSvc\wifinetworkmanager\config" valueName="AutoConnectAllowedOEM">
+      <parentCategory ref="CAT_WIFISENSE" />
+      <supportedOn ref="SUPPORTED_Windows_10_0_NOSERVER" />
+	  <enabledValue>
+          <decimal value="0" />
+      </enabledValue>
+      <disabledValue>
+          <decimal value="1" />
+      </disabledValue>
+    </policy>
+  </policies>
+</policyDefinitions>

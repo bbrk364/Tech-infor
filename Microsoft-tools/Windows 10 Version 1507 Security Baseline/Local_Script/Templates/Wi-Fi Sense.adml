@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  (c) 2015 Microsoft Corporation  -->
+<policyDefinitionResources xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" revision="1.0" schemaVersion="1.0" xmlns="http://schemas.microsoft.com/GroupPolicy/2006/07/PolicyDefinitions">
+  <displayName>Wi-Fi Sense</displayName>
+  <description>Wi-Fi Sense</description>
+  <resources>
+    <stringTable>
+      <string id="CAT_WIFISENSE">Wi-Fi Sense</string>
+      <string id="POL_WIFISENSE_DISABLE">Disable Wi-Fi Sense</string>
+      <string id="SUPPORTED_Windows_10_0_NOSERVER"> At least Windows 10 or Windows 10 RT</string>
+      <string id="POL_WIFISENSE_DISABLE_Help">Wi-Fi Sense automatically connects you to Wi-Fi so you can get online quickly in more places. It can connect you to open Wi-Fi hotspots that it knows about through crowdsourcing, or to Wi-Fi networks that your contacts have shared with you by using Wi-Fi Sense.
+
+Wi-Fi Sense can also discover your device location even when location is turned off for your user account. This is true whenever Wi-Fi Sense is turned on. Wi-Fi Sense uses your location to find suggested open Wi-Fi hotspots.
+	  
+You need to be signed in with your Microsoft account to use Wi Fi Sense.
+
+If this setting is Enabled, Wi-Fi Sense will be disabled and result in the disabling of all related features of Wi-Fi Sense to include connecting automatically to open hotspots, connect automatically to networks shared by my contacts, and allow users to share networks with their contacts.
+
+If this setting is Disabled or Not Configured, Wi-Fi Sense will function as described above.
+	  </string>
+    </stringTable>
+    <presentationTable>
+      <presentation id="POL_0F9924D0_F01D_49AE_9FDE_ABF4C4A6CFDF" />
+    </presentationTable>
+  </resources>
+</policyDefinitionResources>

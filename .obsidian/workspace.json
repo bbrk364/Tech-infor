@@ -1,0 +1,173 @@
+{
+  "main": {
+    "id": "dcdf2e7e16285a4a",
+    "type": "split",
+    "children": [
+      {
+        "id": "112f80d76d79810d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "28b193ac83460770",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b7b7e4afc45b15b5",
+    "type": "split",
+    "children": [
+      {
+        "id": "17c02c9060a6f6ee",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d2cda24359d50951",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "5c2a1963fbc35cb6",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "6f69e08fb5cff433",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "90b14ab1558aeacc",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "8255dacab0662195",
+    "type": "split",
+    "children": [
+      {
+        "id": "e5ab24deb93a8bdc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7b7b2b006102069c",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "bc91045a8598fc4e",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "fd12af9c048c9fa6",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "75a21e514ece8e4d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          },
+          {
+            "id": "32135ff5ace300ca",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "7b021695e8aad337",
+            "type": "leaf",
+            "state": {
+              "type": "FANTASY_CALENDAR",
+              "state": {}
+            }
+          },
+          {
+            "id": "8176b1e85a7f9535",
+            "type": "leaf",
+            "state": {
+              "type": "RSS_FEED",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 6
+      }
+    ],
+    "direction": "horizontal",
+    "width": 392.5
+  },
+  "active": "8176b1e85a7f9535",
+  "lastOpenFiles": [
+    "Cisco/UCS/cisco-UCS-UCS-B200-M4-Blade-Server.pdf",
+    "bp-2007-cassandra-on-nutanix.pdf",
+    "MS-SQL/FirstResponderKit/README.md",
+    "NETBOX/b200m6-specsheet.pdf",
+    "CIS/CIS Azure Kubernetes Service (AKS) Benchmark V1.1.0 PDF.pdf",
+    "TSPLUSS/TSplus Advanced SEcurity Documentation.pdf"
+  ]
+}
