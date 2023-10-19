@@ -1,0 +1,90 @@
+#--------------------------------------------------
+#Windows
+#--------------------------------------------------
+##Folder		
+%ProgramFiles%\Microsoft Configuration Manager\
+%ProgramFiles%\SMS_CCM\
+%Windir%\CCM\
+%ProgramFiles%\Microsoft Configuration Manager\Inboxes\
+%ProgramFiles%\Microsoft Configuration Manager\Logs
+%ProgramFiles%\Microsoft Configuration Manager\EasySetupPayload
+C:\SCCMContentLib\
+%ProgramFiles%\SMS_CCM\ServiceData
+%ProgramFiles%\Microsoft Configuration Manager\MP\OUTBOXES
+%ProgramFiles%\SMS_CCM\SMS\MP\OUTBOXES
+%Windir%\CCM\ServiceData
+*:\SMS_DP$
+*:\SMSPKGDrive_Letter$
+*:\SMSPKG
+*:\SMSPKGSIG
+*:\SMSSIG$
+%ProgramFiles%\Microsoft Configuration Manager\PolReqStaging
+%allusersprofile%\NTUser.pol
+%userprofile%\NTUser.dat
+%windir%\Security\Database\*.chk
+%windir%\Security\Database\*.cmtx
+%windir%\Security\Database\*.csv
+%windir%\Security\Database\*.edb
+%windir%\Security\Database\*.jrs
+%windir%\Security\Database\*.log
+%windir%\Security\Database\*.sdb
+%windir%\Security\Database\*.xml
+%windir%\SoftwareDistribution\Datastore\Datastore.edb
+%windir%\SoftwareDistribution\Datastore\Logs\edb.chk
+%windir%\SoftwareDistribution\Datastore\Logs\edb*.jrs
+%windir%\SoftwareDistribution\Datastore\Logs\tmp.edb
+%SystemRoot%\System32\GroupPolicy\Machine\Registry.pol
+%SystemRoot%\System32\GroupPolicy\Machine\Registry.tmp
+%SystemRoot%\System32\GroupPolicy\User\Registry.pol
+%SystemRoot%\System32\GroupPolicy\User\Registry.tmp
+%ProgramData%\Microsoft\Search\Data\Applications\Windows\windows.edb
+
+D:\Program Files\Microsoft Configuration Manager\Inboxes\
+D:\Program Files\Microsoft Configuration Manager\Install.map
+D:\Program Files\Microsoft Configuration Manager\Logs
+D:\SCCMContentLib
+%windir%\CCM\SystemTemp
+%SystemRoot%\IIS Temporary Compressed Files
+%SystemDrive%\inetpub\logs
+%SystemDrive%\inetpub\temp\ASP Compiled Templates
+%SystemDrive%\inetpub\temp\IIS Temporary Compressed Files
+%SystemDrive%\inetpub\wwwroot
+
+%SystemRoot%\SoftwareDistribution\Datastore
+%SystemRoot%\SoftwareDistribution\Download
+*:\WSUS\UpdateServicesDBFiles
+*:\WSUS\WSUSContent
+%windir%\SoftwareDistribution\ScanFile
+
+
+##---------------------
+##BINexclusions
+##---------------------
+
+%ProgramFiles%\Microsoft Configuration Manager\bin\x64\Smsexec.exe
+%ProgramFiles%\Microsoft Configuration Manager\bin\x64\Sitecomp.exe
+%ProgramFiles%\Microsoft Configuration Manager\bin\x64\Smswriter.exe (site server only)
+%ProgramFiles%\Microsoft Configuration Manager\bin\x64\Cmupdate.exe (site server only)
+%ProgramFiles%\Microsoft Configuration Manager\bin\x64\Smssqlbkup.exe, or SQLFQDN\bin\x64\Smssqlbkup.exe (site database server only)
+%ProgramFiles%\SMS_CCM\Ccmexec.exe
+%windir%\CCM\Ccmexec.exe
+%windir%\CCM\CmRcService.exe
+%windir%\CCM\Ccmrepair.exe
+%windir%\CCMSetup\Ccmsetup.exe
+%windir%\CCMSetup\autoupgrade\Ccmsetup*.exe
+
+%windir%\CCM\Ccmexec.exe
+%windir%\SMS_CCM\Ccmexec.exe
+*:\Program Files\Microsoft Configuration Manager\bin\x64\Cmupdate.exe
+*:\Program Files\Microsoft Configuration Manager\bin\x64\Sitecomp.exe
+*:\Program Files\Microsoft Configuration Manager\bin\x64\Smsexec.exe
+*:\Program Files\Microsoft Configuration Manager\bin\x64\Smssqlbkup.exe
+*:\Program Files\Microsoft Configuration Manager\bin\x64\Smswriter.exe
+*:\SMS_<SQLFQDN>\bin\x64\Smssqlbkup.exe
+
+    %windir%\System32\inetsrv\w3wp.exe
+    %windir%\SysWOW64\inetsrv\w3wp.exe
+    %SystemDrive%\PHP5433\php-cgi.exe
+
+    Wsusscan.cab
+    Wsusscn2.cab

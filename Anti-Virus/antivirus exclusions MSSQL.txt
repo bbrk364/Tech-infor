@@ -1,0 +1,328 @@
+#antivirus exclusions MS-SQL	
+
+##---------------------------------------------------
+##MSSQL2008r2servers
+##---------------------------------------------------
+##Folderexclusions
+C:\ProgramFiles\MicrosoftSQLServer\MSSQL10_50.*\
+C:\ProgramFiles\MicrosoftSQLServer\MSASSQL10_50.*\
+*:\ProgramFiles\MicrosoftSQLServer\MSSQL10_50.*\
+*:\ProgramFiles\MicrosoftSQLServer\MSSQL10_50.*\
+*:\ProgramFiles\MicrosoftSQLServer\MSAS10_50.*\
+*:\ProgramFiles\MicrosoftSQLServer\MSAS10_50.*\
+*:\ProgramFiles\MicrosoftSQLServer\MSRS10_50.*\ReportingServices\ReportServer\Bin\
+*:\ProgramFiles\MicrosoftSQLServer\MSRS10_50.*\ReportingServices\ReportManager\<InstallDirectory>\100\DTS\
+*:\ProgramFiles\MicrosoftSQLServer\MSRS10_50.*\ReportingServices\ReportManager\<InstallDirectory>\100\Tools\
+*:\ProgramFiles\MicrosoftSQLServer\100\COM\5
+*:\ProgramFiles\MicrosoftSQLServer\100\DTS\Binn
+*:\ProgramFiles\MicrosoftSQLServer\100\DTS\Connections
+*:\ProgramFiles\MicrosoftSQLServer\100\DTS\ForEachEnumerators
+*:\ProgramFiles\MicrosoftSQLServer\100\Shared\
+*:\ProgramFiles\MicrosoftSQLServer\100\Shared\
+C:\ProgramFiles\MicrosoftSQLServer\
+C:\ProgramFiles\MicrosoftSQLServer\MSSQL10_50.<InstanceID>\Data
+C:\ProgramFiles\MicrosoftSQLServer\MSSQL10_50.<InstanceID>\Data
+C:\ProgramFiles\MicrosoftSQLServer\MSSQL10_50.<InstanceID>\Data
+C:\ProgramFiles\MicrosoftSQLServer\MSSQL10_50.<InstanceID>\Data
+C:\ProgramFiles\MicrosoftSQLServer\MSSQL10_50.<InstanceID>\Backup
+
+##---------------------
+##BINexclusions
+##---------------------
+%ProgramFiles%\Microsoft SQL Server\MSSQL10_50.*\MSSQL\Binn\SQLServr.exe
+%ProgramFiles%\Microsoft SQL Server\MSSQL10_50.*\Reporting Services\ReportServer\Bin\ReportingServicesService.exe
+%ProgramFiles%\Microsoft SQL Server\MSSQL10_50.*\OLAP\Bin\MSMDSrv.exe
+
+
+
+##
+
+
+#---------------------------------------------------
+MSSQL2012servers
+#---------------------------------------------------
+##Folderexclusions
+*:\ProgramFiles\MicrosoftSQLServer\MSSQL12.*\
+*:\ProgramFiles\MicrosoftSQLServer\MSAS12.*\
+*:\ProgramFiles\MicrosoftSQLServer\MSSQL12.*\
+*:\ProgramFiles\MicrosoftSQLServer\MSSQL12.*\
+*:\ProgramFiles\MicrosoftSQLServer\MSAS12.*\
+*:\ProgramFiles\MicrosoftSQLServer\MSAS12.*\
+*:\ProgramFiles\MicrosoftSQLServer\MSRS12.<InstanceID>\ReportingServices\ReportServer\Bin\
+*:\ProgramFiles\MicrosoftSQLServer\MSRS12.<InstanceID>\ReportingServices\ReportManager\
+<InstallDirectory>\120\DTS\
+<InstallDirectory>\120\Tools\
+<InstallDirectory>\ClientSDK\ODBC\110\Tools\Binn
+*:\ProgramFiles\MicrosoftSQLServer\120\COM\5
+*:\ProgramFiles\MicrosoftSQLServer\120\DTS\Binn
+*:\ProgramFiles\MicrosoftSQLServer\120\DTS\Connections
+*:\ProgramFiles\MicrosoftSQLServer\120\DTS\ForEachEnumerators
+*:\ProgramFiles\MicrosoftSQLServer\120\Shared\
+*:\ProgramFiles\MicrosoftSQLServer\120\Shared\
+*:\ProgramFiles\MicrosoftSQLServer\
+*:\ProgramFiles\MicrosoftSQLServer\MSSQL12.<InstanceID>\MSSQL\Data
+*:\ProgramFiles\MicrosoftSQLServer\MSSQL12.<InstanceID>\MSSQL\Data
+*:\ProgramFiles\MicrosoftSQLServer\MSSQL12.<InstanceID>\MSSQL\Data
+*:\ProgramFiles\MicrosoftSQLServer\MSSQL12.<InstanceID>\MSSQL\Data
+*:\ProgramFiles\MicrosoftSQLServer\MSSQL12.<InstanceID>\MSSQL\Backup
+*:\ProgramFiles\MicrosoftSQLServer\MSAS12.<InstanceID>\OLAP\Data\
+*:\ProgramFiles\MicrosoftSQLServer\MSAS12.<InstanceID>\OLAP\Log\
+*:\ProgramFiles\MicrosoftSQLServer\MSAS12.<InstanceID>\OLAP\Temp\
+*:\ProgramFiles\MicrosoftSQLServer\MSAS12.<InstanceID>\OLAP\Backup\
+##---------------------
+##BINexclusions
+##---------------------
+%ProgramFiles%\Microsoft SQL Server\MSSQL11.<Instance Name>\MSSQL\Binn\SQLServr.exe
+%ProgramFiles%\Microsoft SQL Server\MSRS11.<Instance Name>\Reporting Services\ReportServer\Bin\ReportingServicesService.exe
+%ProgramFiles%\Microsoft SQL Server\MSAS11.<Instance Name>\OLAP\Bin\MSMDSrv.exe
+
+
+
+
+##Folderexclusions-CLUSTER
+*\ProgramFiles\MicrosoftSQLServer\
+*\ProgramFiles\MicrosoftSQLServer\MSSQL12.<InstanceID>\MSSQL\Data
+*\ProgramFiles\MicrosoftSQLServer\MSSQL12.<InstanceID>\MSSQL\Data
+*\ProgramFiles\MicrosoftSQLServer\MSSQL12.<InstanceID>\MSSQL\Data
+*\ProgramFiles\MicrosoftSQLServer\MSSQL12.<InstanceID>\MSSQL\Data
+*\ProgramFiles\MicrosoftSQLServer\MSSQL12.<InstanceID>\MSSQL\Backup
+
+
+
+
+
+
+
+#---------------------------------------------------
+MSSQL2014servers
+#---------------------------------------------------
+##Folderexclusions
+*:\ProgramFiles\Microsoft SQL Server\MSSQL11.*\
+*:\ProgramFiles\Microsoft SQL Server\MSAS11.*\
+*:\ProgramFiles\Microsoft SQL Server\MSSQL11.*\
+*:\ProgramFiles\Microsoft SQL Server\MSSQL11.*\
+*:\ProgramFiles\Microsoft SQL Server\MSAS11.*\
+*:\ProgramFiles\Microsoft SQL Server\MSAS11.*\
+*:\ProgramFiles\Microsoft SQL Server\MSRS11.*\ReportingServices\ReportServer\Bin\
+*:\ProgramFiles\Microsoft SQL Server\MSRS11.*\ReportingServices\ReportManager\<InstallDirectory>\110\DTS\
+*:\ProgramFiles\Microsoft SQL Server\MSRS11.*\ReportingServices\ReportManager\<InstallDirectory>\110\Tools\
+*:\ProgramFiles\Microsoft SQL Server\110\COM\5
+*:\ProgramFiles\Microsoft SQL Server\110\DTS\Binn
+*:\ProgramFiles\Microsoft SQL Server\110\DTS\Connections
+*:\ProgramFiles\Microsoft SQL Server\110\DTS\ForEachEnumerators
+*:\ProgramFiles\Microsoft SQL Server\110\Shared\
+*:\ProgramFiles\Microsoft SQL Server\110\Shared\
+*:\ProgramFiles\Microsoft SQL Server\MSAS11.*\OLAP\Data\
+*:\ProgramFiles\Microsoft SQL Server\MSAS11.*\OLAP\Log\
+*:\ProgramFiles\Microsoft SQL Server\MSAS11.*\OLAP\Temp\
+*:\ProgramFiles\Microsoft SQL Server\MSAS11.*\OLAP\Backup\
+
+##---------------------
+##BINexclusions
+##---------------------
+%ProgramFiles%\Microsoft SQL Server\MSSQL12.<Instance Name>\MSSQL\Binn\SQLServr.exe
+%ProgramFiles%\Microsoft SQL Server\MSRS12.<Instance Name>\Reporting Services\ReportServer\Bin\ReportingServicesService.exe
+%ProgramFiles%\Microsoft SQL Server\MSAS12.<Instance Name>\OLAP\Bin\MSMDSrv.exe
+
+
+
+#---------------------------------------------------
+MSSQL2016servers
+#---------------------------------------------------
+##Folderexclusions
+C:\Program Files\Microsoft SQL Server\MSSQL14.*\
+C:\Program Files\Microsoft SQL Server\MSAS14.*\
+C:\Program Files\Microsoft SQL Server\MSSQL14.*\MSSQL\
+D:\Program Files\Microsoft SQL Server\MSSQL14\MSSQL\MSSQL10_50\MSSQL\Data\
+D:\Program Files\Microsoft SQL Server\MSSQL14.*\
+*:\Program Files\Microsoft SQL Server\MSSQL14.*\
+*:\Program Files\Microsoft SQL Server\MSAS14.*\
+*:\Program Files\Microsoft SQL Server\MSAS14.*\
+*:\Program Files\Microsoft SQL Server\MSRS14.*\Reporting Services\ReportServer\Bin\
+*:\Program Files\Microsoft SQL Server\MSRS14.*\Reporting Services\ReportManager\
+*:\Program Files\Microsoft SQL Server\140\DTS\
+*:\Program Files\Microsoft SQL Server\140\Tools\
+*:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn
+*:\Program Files\Microsoft SQL Server\*\COM\
+*:\Program Files\Microsoft SQL Server\*\DTS\Binn
+*:\Program Files\Microsoft SQL Server\*\DTS\Connections
+*:\Program Files\Microsoft SQL Server\*\DTS\ForEachEnumerators
+*:\Program Files\Microsoft SQL Server\*\Shared\
+*:\Program Files\Microsoft SQL Server\*\Shared\
+*:\Program Files\Microsoft SQL Server\MSAS11.*\OLAP\Data\
+*:\Program Files\Microsoft SQL Server\MSAS11.*\OLAP\Log\
+*:\Program Files\Microsoft SQL Server\MSAS11.*\OLAP\Temp\
+*:\Program Files\Microsoft SQL Server\MSAS11.*\OLAP\Backup\
+
+
+#---------------------------------------------------
+MSSQL2019servers
+#---------------------------------------------------
+##Folderexclusions
+C:\Program Files\Microsoft SQL Server\MSSQL15.*\
+C:\Program Files\Microsoft SQL Server\MSAS15.*\
+C:\Program Files\Microsoft SQL Server\MSSQL15.*\MSSQL\
+*:\Program Files\Microsoft SQL Server\MSSQL15\MSSQL\MSSQL10_50\MSSQL\Data\
+*:\Program Files\Microsoft SQL Server\MSSQL15.*\
+*:\Program Files\Microsoft SQL Server\MSSQL15.*\
+*:\Program Files\Microsoft SQL Server\MSAS15.*\
+*:\Program Files\Microsoft SQL Server\MSAS15.*\
+*:\Program Files\Microsoft SQL Server\MSRS15.*\Reporting Services\ReportServer\Bin\
+*:\Program Files\Microsoft SQL Server\MSRS15.*\Reporting Services\ReportManager\
+*:\Program Files\Microsoft SQL Server\150\DTS\
+*:\Program Files\Microsoft SQL Server\150\Tools\
+*:\Program Files\Microsoft SQL Server\Client SDK\ODBC\150\Tools\Binn
+*:\Program Files\Microsoft SQL Server\*\COM\
+*:\Program Files\Microsoft SQL Server\*\DTS\Binn
+*:\Program Files\Microsoft SQL Server\*\DTS\Connections
+*:\Program Files\Microsoft SQL Server\*\DTS\ForEachEnumerators
+*:\Program Files\Microsoft SQL Server\*\Shared\
+*:\Program Files\Microsoft SQL Server\*\Shared\
+*:\Program Files\Microsoft SQL Server\MSAS12.*\OLAP\Data\
+*:\Program Files\Microsoft SQL Server\MSAS12.*\OLAP\Log\
+*:\Program Files\Microsoft SQL Server\MSAS12.*\OLAP\Temp\
+*:\Program Files\Microsoft SQL Server\MSAS12.*\OLAP\Backup\
+
+
+#---------------------------------------------------
+MSSQL2022servers
+#---------------------------------------------------
+##Folderexclusions
+C:\Program Files\Microsoft SQL Server\MSSQL16.*\
+C:\Program Files\Microsoft SQL Server\MSSQL16.*\
+C:\Program Files\Microsoft SQL Server\MSSQL16.*\MSSQL\
+*:\Program Files\Microsoft SQL Server\MSSQL16\MSSQL\MSSQL10_50\MSSQL\Data\
+*:\Program Files\Microsoft SQL Server\MSSQL16.*\
+*:\Program Files\Microsoft SQL Server\MSSQL16.*\
+*:\Program Files\Microsoft SQL Server\MSAS16.*\
+*:\Program Files\Microsoft SQL Server\MSAS16.*\
+*:\Program Files\Microsoft SQL Server\MSRS16.*\Reporting Services\ReportServer\Bin\
+*:\Program Files\Microsoft SQL Server\MSRS16.*\Reporting Services\ReportManager\
+*:\Program Files\Microsoft SQL Server\160\DTS\
+*:\Program Files\Microsoft SQL Server\160\Tools\
+*:\Program Files\Microsoft SQL Server\Client SDK\ODBC\150\Tools\Binn
+*:\Program Files\Microsoft SQL Server\*\COM\
+*:\Program Files\Microsoft SQL Server\*\DTS\Binn
+*:\Program Files\Microsoft SQL Server\*\DTS\Connections
+*:\Program Files\Microsoft SQL Server\*\DTS\ForEachEnumerators
+*:\Program Files\Microsoft SQL Server\*\Shared\
+*:\Program Files\Microsoft SQL Server\*\Shared\
+*:\Program Files\Microsoft SQL Server\MSAS13.*\OLAP\Data\
+*:\Program Files\Microsoft SQL Server\MSAS13.*\OLAP\Log\
+*:\Program Files\Microsoft SQL Server\MSAS13.*\OLAP\Temp\
+*:\Program Files\Microsoft SQL Server\MSAS13.*\OLAP\Backup\
+
+##---------------------
+##Data directory for Analysis Services
+##---------------------
+
+C:\Program Files\Microsoft SQL Server\MSAS<ID>.MSSQLSERVER\OLAP\Data
+C:\Program Files\Microsoft SQL Server\MSAS<ID>.<InstanceName>\OLAP\Data
+C:\Program Files\Microsoft SQL Server\MSAS<ID>.MSSQLSERVER\OLAP\Temp
+C:\Program Files\Microsoft SQL Server\MSAS<ID>.<InstanceName>\OLAP\Temp
+C:\Program Files\Microsoft SQL Server\MSAS<ID>.MSSQLSERVER\OLAP\Backup
+C:\Program Files\Microsoft SQL Server\MSAS<ID>.<InstanceName>\OLAP\Backup
+C:\Program Files\Microsoft SQL Server\MSAS<ID>.MSSQLSERVER\OLAP\Backup
+%ProgramFiles%\Microsoft SQL Server\<InstanceID>.<InstanceName>\MSSQL\Log\Polybase\
+
+#SSRS directories to exclude from virus scanning
+%ProgramFiles%\Microsoft SQL Server\*\Reporting Services
+%ProgramFiles%\Microsoft SQL Server\*\Reporting Services
+%ProgramFiles%\Microsoft SQL Server Reporting Services\SSRS
+%ProgramFiles%\Microsoft SQL Server Reporting Services\Shared Tools
+
+#Power BI Report Server directories to exclude
+%ProgramFiles%\Microsoft Power BI Report Server\PBIRS
+%ProgramFiles%\Microsoft Power BI Report Server\Shared Tools
+W:\SQL.backup\
+W:\SQL-backup\
+W:\SQL_backup\
+%Systemroot%\Cluster
+C:\Windows\Cluster
+C:\Program Files\Update Services\Schema
+
+
+##---------------------
+##BINexclusions
+##---------------------
+
+%SystemRoot%\Cluster\clussvc.exe
+%SystemRoot%\Cluster\rhs.exe
+
+%ProgramFiles%\Microsoft SQL Server\*\MSSQL\Binn\SQLServr.exe
+%ProgramFiles%\Microsoft SQL Server\*\Reporting Services\ReportServer\Bin\ReportingServicesService.exe
+%ProgramFiles%\Microsoft SQL Server\*\OLAP\Bin\MSMDSrv.exe
+%ProgramFiles%\Microsoft SQL Server\*.MSSQLSERVER\OLAP\bin\MSMDSrv.exe
+%ProgramFiles%\Microsoft SQL Server\*\OLAP\bin\MSMDSrv.exe
+%ProgramFiles%\Microsoft SQL Server\*\MSSQL\Binn\Polybase\mpdwsvc.exe
+%ProgramFiles%\Microsoft SQL Server\*\MSSQL\Binn\Polybase\mpdwsvc.exe
+%ProgramFiles%\Microsoft SQL Server\*\MSSQL\Binn\sqlagent.exe
+%ProgramFiles%\Microsoft SQL Server\*\MSSQL\Binn\sqlbrowser.exe (SQL Server Browser service)
+%ProgramFiles%\Microsoft SQL Server\*\Shared\SQLDumper.exe 
+
+%ProgramFiles%\Microsoft SQL Server\*\Reporting Services\RSWebApp\Microsoft.ReportingServices.Portal.WebHost.exe
+#SSRS 2017 and later versions
+%ProgramFiles%\Microsoft SQL Server Reporting Services\SSRS\Management\RSManagement.exe
+%ProgramFiles%\Microsoft SQL Server Reporting Services\SSRS\Portal\RSPortal.exe
+%ProgramFiles%\Microsoft SQL Server Reporting Services\SSRS\ReportServer\bin\ReportingServicesService.exe
+%ProgramFiles%\Microsoft SQL Server Reporting Services\SSRS\RSHostingService\RSHostingService.exe
+
+#Power BI Report Server
+%ProgramFiles%\Microsoft Power BI Report Server\PBIRS\ASEngine\msmdsrv.exe
+%ProgramFiles%\Microsoft Power BI Report Server\PBIRS\Management\RSManagement.exe
+%ProgramFiles%\Microsoft Power BI Report Server\PBIRS\Office\RSOffice.exe
+%ProgramFiles%\Microsoft Power BI Report Server\PBIRS\Portal\RSPortal.exe
+%ProgramFiles%\Microsoft Power BI Report Server\PBIRS\PowerBI\Microsoft.Mashup.Container.exe
+%ProgramFiles%\Microsoft Power BI Report Server\PBIRS\PowerBI\Microsoft.Mashup.Container.NetFX40.exe
+%ProgramFiles%\Microsoft Power BI Report Server\PBIRS\PowerBI\Microsoft.Mashup.Container.NetFX45.exe
+%ProgramFiles%\Microsoft Power BI Report Server\PBIRS\PowerBI\RSPowerBI.exe
+%ProgramFiles%\Microsoft Power BI Report Server\PBIRS\ReportServer\bin\ReportingServicesService.exe
+%ProgramFiles%\Microsoft Power BI Report Server\PBIRS\RSHostingService\RSHostingService.exe
+
+C:\Windows\SysWOW64\SQLServerManager16.msc  #SQL Server 2022 (16.x)	
+C:\Windows\SysWOW64\SQLServerManager15.msc  #SQL Server 2019 (15.x) 	
+C:\Windows\SysWOW64\SQLServerManager14.msc  #SQL Server 2017 (14.x) 	
+C:\Windows\SysWOW64\SQLServerManager13.msc  #SQL Server 2016 (13.x) 	
+C:\Windows\SysWOW64\SQLServerManager12.msc  #SQL Server 2014 		
+C:\Windows\SysWOW64\SQLServerManager11.msc  #SQL Server 2012 	
+ 
+PIOLEDB.DLL 
+PISDK.DLL
+HIPI.DLL
+HcSQL.dll
+HcApi.dll
+HcThe.dll
+ENTAPI.DLL
+MPPC*.DLL
+SCRIPTCONTROL*.DLL
+
+##---------------------
+##FileTypeExclusions
+##---------------------
+#SQL Server data files
+    *.ldf
+    *.mdf
+    *.ndf
+#SQL Server backup files
+    *.bak
+    *.trn
+#SQL Audit files
+    *.sqlaudit
+#SQL Query files
+    *.sql
+#SQL Trace files
+    *.trc
+#Replication Snapshot Files:
+	*.bcp
+	*.cft
+	*.dri
+	*.idx
+	*.prc
+	*.pre
+	*.sch
+	*.trg
+#Extended Event Files
+    *.xel
+    *.xem
+#Exception Dump Files	
+    *.mdmp
